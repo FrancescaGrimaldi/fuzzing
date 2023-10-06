@@ -1,2 +1,0 @@
-/usr/bin/ar qc libutility.a  CMakeFiles/utility.dir/utility.c.o
-/usr/bin/ranlib libutility.a
