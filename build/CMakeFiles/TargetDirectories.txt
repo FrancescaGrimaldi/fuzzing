@@ -1,0 +1,10 @@
+/home/fragrimi/c/build/CMakeFiles/rebuild_cache.dir
+/home/fragrimi/c/build/CMakeFiles/edit_cache.dir
+/home/fragrimi/c/build/CMakeFiles/test.dir
+/home/fragrimi/c/build/CMakeFiles/c.dir
+/home/fragrimi/c/build/CMakeFiles/utility.dir
+/home/fragrimi/c/build/tests/CMakeFiles/edit_cache.dir
+/home/fragrimi/c/build/tests/CMakeFiles/test.dir
+/home/fragrimi/c/build/tests/CMakeFiles/rebuild_cache.dir
+/home/fragrimi/c/build/tests/CMakeFiles/utility_fuzzer_test.dir
+/home/fragrimi/c/build/tests/CMakeFiles/utility_test.dir

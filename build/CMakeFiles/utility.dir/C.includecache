@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/fragrimi/c/utility.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+utility.h
+/home/fragrimi/c/utility.h
+
+/home/fragrimi/c/utility.h
+

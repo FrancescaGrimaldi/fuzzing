@@ -1,0 +1,36 @@
+name: Continuous Integration, Fuzzing and Address Sanitizer
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Install dependencies
+      run: sudo apt install -y cmake clang
+
+    - name: Initial Setup
+      run: |
+        mkdir build
+        cd build
+        CC=clang cmake ..
+        make
+
+    - name: Fuzzing
+      run: |
+        cd build
+        ./tests/utility_fuzzer_test -max_total_time=60
+
+    - name: Running tests
+      run: |
+        cd build
+        ./tests/utility_test
